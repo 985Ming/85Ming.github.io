@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>java总结</title>
+    <link href="/2024/01/30/hello-world/"/>
+    <url>/2024/01/30/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>这里写关于页的正文，支持 Markdown, HTML</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>java总结</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>小白</title>
+    <link href="/2024/01/30/%E5%B0%8F%E7%99%BD/"/>
+    <url>/2024/01/30/%E5%B0%8F%E7%99%BD/</url>
+    
+    <content type="html"><![CDATA[<p>第一步  有一个远程仓库，gitee,github,gitlab</p><p>第二步 获取密钥  先去 c盘 用户 lenovo 找 .ssh 文件</p><p>​删除里面的内容。</p><p>第三步 打开git bash 输入 ssh-keygen  -t rsa  会生成文件</p><p>返回第二步  去.ssh文件找   rsa.pub  复制全部，这就是你的密钥</p><p>![image-20231023193009521](C:\Program Files\nodejs\node_global\hexo-blog\source_posts\小白\image-20231023193009521.png)</p><p>放这里面。</p><p>第四步 去创建一个仓库</p><p>复制链接</p><p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20231023193550657.png" alt="image-20231023193550657"></p><p>第五步 把远程仓库克隆到 你写项目的文件夹里，和整个项目并列</p><p>git clone <a href="https://gitee.com/yym7018/gitaa.git">https://gitee.com/yym7018/gitaa.git</a>  (注意 ！！！复制的是SSH的链接)</p><p>第六步 关联本地工程到远程仓库  （在你克隆的文件夹里执行命令）</p><p>git remote add origin   <a href="https://gitee.com/yym7018/gitaa.git">https://gitee.com/yym7018/gitaa.git</a></p><p>如果报错说明已经关联了一个远程库，直接删除他</p><p>git remote -v (这是查看) 然后删除 git remote rm origin</p><p>再次关联 git remote add origin   <a href="https://gitee.com/yym7018/gitaa.git">https://gitee.com/yym7018/gitaa.git</a></p><p>第七步 把你的项目文件夹托克隆的文件夹里面</p><p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20231023204533000.png" alt="image-20231023204533000"></p><p>添加目录    添加所有文件（add）&#x2F;&#x2F;这是添加到缓存</p><p>git commit -m “提交”       （commit）这是到本地仓库</p><p>最后一步 推到远程仓库</p><p>git push -u origin master</p><p>（git push origin wang   如果有分支的情况下）</p><p>ok</p><p>&#x2F;&#x2F;搜索所有分支</p><p>git branch</p><p>  &#x2F;&#x2F;添加新分支</p><p>git branch  wang ；然后wang分支就好了   远程仓库刷新页面</p><p>&#x2F;&#x2F;删除分支</p><p>git branch -d wang</p><p>&#x2F;&#x2F;切换分支 </p><p>git checkout wang</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>java总结</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>小黑</title>
+    <link href="/2024/01/30/git/"/>
+    <url>/2024/01/30/git/</url>
+    
+    <content type="html"><![CDATA[<p>第一步  有一个远程仓库，gitee,github,gitlab</p><p>第二步 获取密钥  先去 c盘 用户 lenovo 找 .ssh 文件</p><p>​删除里面的内容。</p><p>第三步 打开git bash 输入 ssh-keygen  -t rsa  会生成文件</p><p>返回第二步  去.ssh文件找   rsa.pub  复制全部，这就是你的密钥</p><p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20231023193009521.png" alt="image-20231023193009521"></p><p>放这里面。</p><p>第四步 去创建一个仓库</p><p>复制链接</p><p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20231023193550657.png" alt="image-20231023193550657"></p><p>第五步 把远程仓库克隆到 你写项目的文件夹里，和整个项目并列</p><p>git clone <a href="https://gitee.com/yym7018/gitaa.git">https://gitee.com/yym7018/gitaa.git</a>  (注意 ！！！复制的是SSH的链接)</p><p>第六步 关联本地工程到远程仓库  （在你克隆的文件夹里执行命令）</p><p>git remote add origin   <a href="https://gitee.com/yym7018/gitaa.git">https://gitee.com/yym7018/gitaa.git</a></p><p>如果报错说明已经关联了一个远程库，直接删除他</p><p>git remote -v (这是查看) 然后删除 git remote rm origin</p><p>再次关联 git remote add origin   <a href="https://gitee.com/yym7018/gitaa.git">https://gitee.com/yym7018/gitaa.git</a></p><p>第七步 把你的项目文件夹托克隆的文件夹里面</p><p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20231023204533000.png" alt="image-20231023204533000"></p><p>添加目录    添加所有文件（add）&#x2F;&#x2F;这是添加到缓存</p><p>git commit -m “提交”       （commit）这是到本地仓库</p><p>最后一步 推到远程仓库</p><p>git push -u origin master</p><p>（git push origin wang   如果有分支的情况下）</p><p>ok</p><p>&#x2F;&#x2F;搜索所有分支</p><p>git branch</p><p>  &#x2F;&#x2F;添加新分支</p><p>git branch  wang ；然后wang分支就好了   远程仓库刷新页面</p><p>&#x2F;&#x2F;删除分支</p><p>git branch -d wang</p><p>&#x2F;&#x2F;切换分支 </p><p>git checkout wang</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>java总结</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
